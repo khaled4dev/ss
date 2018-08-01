@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reacthall</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--=========-TOP_BAR============-->
+  <nav class="topBar topheader_bgcolor">
+    <div class="container">
+      <ul class="list-inline pull-left hidden-sm hidden-xs">
+        <li><span class="sm_headfont">FOLLOW US: </span> 
+           <a href="#"><i class="fab fa-facebook-square fb_color font_awesomeicon"></i></a>
+        </li>
+        <li>
+           <a href="#"><i class="fab fa-twitter-square font_awesomeicon twitter_color"></i></a>
+        </li>
+        <li>
+           <a href="#"><i class="fab fa-youtube-square font_awesomeicon youtube_color"></i></a>
+        </li>
+        <li>
+           <a href="#"><i class="fab fa-pinterest-square font_awesomeicon pinterest_color"></i></a>
+        </li>
+      </ul>
+      <ul class="topBarNav pull-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-usd mr-5"></i>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">
+            <span>CAREERS</span> 
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">
+            <span class="">HELP</span> 
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+  <div class="middleBar">
+    <div class="container">
+       <div class="row display-table">
+    <div class="col-sm-2 vertical-align text-left hidden-xs">
+      <h3>Reatchall</h3>
+    </div>
+    <div class="col-sm-7 vertical-align text-center">
+      <form>
+        <div class="row grid-space-1">
+          <div class="col-sm-4 hidden-sm hidden-xs">
+            <div class="input-group">
+		      <input type="text" class="form-control SearchBar Searchbox_width" placeholder="Search for...">
+		      <span class="input-group-btn">
+		        <button class="btn btn-defaul SearchButton" type="button">
+		            <span class=" fas fa-search SearchIcon" ></span>
+		        </button>
+		      </span>
+		    </div>
+          </div>
+         
+            <div class="col-sm-2 visible-sm visible-xs">
+            <h3>Reatchall</h3>
+          </div>
+          <div class="col-sm-3 visible-sm visible-xs">
+            <div class="input-group">
+              <input type="text" class="form-control SearchBar" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-defaul SearchButton" type="button">
+                    <span class=" fas fa-search SearchIcon" ></span>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-3 visible-sm visible-xs">
+            <div class="input-group">
+              <input type="text" class="form-control SearchBar" placeholder="">
+              <span class="input-group-btn">
+                <button class="btn btn-defaul SearchButton" type="button">
+                    <span class=" fas fa-map-marker-alt SearchIcon" ></span>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-3 hidden-sm hidden-xs">
+            <div class="input-group">
+		      <input type="text" class="form-control SearchBar" placeholder="">
+		      <span class="input-group-btn">
+		        <button class="btn btn-defaul SearchButton" type="button">
+		            <span class=" fas fa-map-marker-alt SearchIcon" ></span>
+		        </button>
+		      </span>
+		    </div>
+          </div>
+          <div class="col-sm-2 header_margin hidden-sm hidden-xs">
+            <div class="input-group">
+		      <span class="input-group-btn">
+		        <button class="btn btn-defaul SearchButton" type="button">
+		            <span>Login/Signup</span>
+		        </button>
+		      </span>
+		    </div>
+          </div>
+          <div class="col-sm-2 login_margin hidden-sm hidden-xs">
+            <div class="input-group">
+		      <span class="input-group-btn">
+		        <button class="btn btn-defaul SearchButton" type="button">
+		            <span>Business Login</span>
+		        </button>
+		      </span>
+		    </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default header_bg_color navbar_border nav-3 navbar_top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="link-3"><a href="#">FASHION</a></li>
+        <li class="link-3"><a href="#">HOSPITALS</a></li>
+        <li class="link-3"><a href="#">JEWELLERY</a></li>
+        <li class="link-3"><a href="#">MEDICINE</a></li>
+        <li class="link-3"><a href="#">FURNITURE</a></li>
+        <li class="link-3"><a href="#">HOME APPLIANCES</a></li>
+        <li class="link-3"><a href="#">REAL ESTATE</a></li>
+        <li class="link-3"><a href="#">START UPS</a></li>
+        <li class="link-3"><a href="#">GOVERNMENT SCHEMES</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+
+<div class="container carosel_width">
+    <div class="row">
+        <div class="col-md-12 carosel_row_padding">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>   
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <img src="images/slide1.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h3>ReatchAll</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="carousel-action">
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-success">Try Now</a>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="item carousel-item">
+                        <img src="images/slide1.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h3>ReatchAll</h3>                       
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="carousel-action">
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-success">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item carousel-item">
+                        <img src="images/slide1.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h3>ReatchAll</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="carousel-action">
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-success">Try Now</a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---categories page starts-->
+<div id="exTab1" class="container"> 
+<ul  class="nav nav-pills">
+            <li class="active">
+               <a  href="#1a" data-toggle="tab">HOME DELIVERY CATEGORIES</a>
+            </li>
+            <li>
+                <a href="#2a" data-toggle="tab">OTHER CATEGORIES</a>
+            </li>
+        </ul>
+            <div class="tab-content clearfix">
+              <div class="tab-pane active" id="1a">
+                 <div class="row">
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="tab-pane" id="2a">
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <a href="#"><div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div></a>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                      <img src="images/cat1.jpg" alt="...">
+                      <div class="caption">
+                        <h4 class="text-center">Product Name</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+    </div>
+  <!---categories page ends--->
+  
+  <div class="home-keypoints padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="services-box">
+            <i class="fa fa-truck"></i>
+            <h4 class="title">
+              On time delivery with with tracking
+            </h4>
+            
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="services-box">
+            <i class="fa fa-globe"></i>
+            <h4 class="title">
+              Search optimized and location accurate results
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="services-box">
+            <i class="fa fa-globe"></i>
+            <h4 class="title">
+              Easy to use without language barriers
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="services-box">
+            <i class="fa fa-globe"></i>
+            <h4 class="title">
+              Easy contact instant solution Good, Customer service
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---Key points End  -->
+
+<div class="container">
+       <h1>Featured Products</h1>
+      <ul class="arrows pager pull-right">
+            <li><a data-slide="prev" href="#carousel-example" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+            <li><a data-slide="next" href="#carousel-example" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+       </ul>
+        
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i>3.0
+                                             
+                                           <h5> Offer 20%</h5>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                      <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i>3.0
+                                             
+                                           <h5> Offer 20%</h5>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                      <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i> 3.0
+                                             <h5> Offer 20%</h5>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                     <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i> 3.0
+                                             <h5> Offer 20%</h5>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                      <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i> 3.0
+                                             <h5> Offer 20%</h5>
+                                             
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                      <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i> 3.0
+                                             <h5> Offer 20% </h5>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                      <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                               </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i> 3.0
+                                             <h5> Offer 20% </h5>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                      <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <img src="images/img1.jpg" width=100% alt="img1"/>
+                                    <div class="top-right">
+                                    <button class="btn btn-primary" type="button">open</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <h4>Item Name</h4>
+                                            <p>$345</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xm-12">
+                                            <div class="txt">
+                                             <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star"></i>
+                                             <i class="price-text-color fa fa-star"></i> 3.0
+                                             <h5> Offer 20%</h5>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    <div class="al-btn">
+                                    <div class="btn-group">
+                                      <a href="#" class="btn btn-success"><i class="fa fa-heart"></i>WishList</a>
+                                      <a href="#" class="btn btn-danger"><i class="fa fa-map-marker"></i>Distance</a>
+                                     <a href="#" class="btn btn-primary"><i class="fa fa-share"></i>Share</a>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-3 col-sm-3 col-xs-6">
+                    <h3> Info </h3>
+                    <ul>
+                        <li> <a href="#"> About Us </a> </li>
+                        <li> <a href="#"> Faq</a> </li>
+                        <li> <a href="#"> Order History </a> </li>
+                        <li> <a href="#"> Order Info </a> </li>
+                        <li> <a href="#"> Privacy Policy </a> </li>
+                        <li> <a href="#"> Terms </a> </li>
+                        <li> <a href="#"> Vendor Policy </a> </li>
+                        <li> <a href="#">  Register your Business  </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3  col-md-3 col-sm-3 col-xs-6">
+                    <h3> Customer Services </h3>
+                    <ul>
+                        <li> <a href="#"> Contact Us</a> </li>
+                        <li> <a href="#"> Returns </a> </li>
+                        <li> <a href="#"> My Account</a> </li>
+                        <li> <a href="#"> Site map </a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <h3> My Account </h3>
+                    <ul>
+                        <li> <a href="#"> Offer Zone </a> </li>
+                        <li> <a href="#"> Brands </a> </li>
+                        <li> <a href="#"> Gift Vouchers </a> </li>
+                        <li> <a href="#">Affiliates</a> </li>
+                        <li> <a href="#">Specials</a> </li>
+                        <li> <a href="#">Our Blog</a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3  col-md-3 col-sm-3 col-xs-6">
+                    <h3> Contact Us </h3>
+                    <ul>
+                        <li> <a href="#"><span class="f-ico"><i class="fas fa-map-marker-alt"></i></span> &nbsp;&nbsp;RR Tower, 4th Floor , North Block , 188 & 189 Phase II, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081. </a> </li>
+                        <li> <a href="#"><span class="f-ico"><i class="fas fa-envelope"></i></span> &nbsp;&nbsp;info@reatchall.com 
+                           support@reatchall.com </a> </li>
+                        <li> <a href="#"> <span class="f-ico"><i class="fas fa-phone"></i></span> 
+                          &nbsp;&nbsp;Phone 1: +91 9676563991 <br>
+                           Phone 1: +91 9676563991  </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+    
+
+		
+
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".wish-icon i").click(function(){
+            $(this).toggleClass("fa-heart fa-heart-o");
+        });
+    }); 
+</script>
+  <script type="text/javascript">
+    ! function($, n, e) {
+      var o = $();
+      $.fn.dropdownHover = function(e) {
+        return "ontouchstart" in document ? this : (o = o.add(this.parent()), this.each(function() {
+          function t(e) {
+            o.find(":focus").blur(), h.instantlyCloseOthers === !0 && o.removeClass("open"), n.clearTimeout(c), i.addClass("open"), r.trigger(a)
+          }
+          var r = $(this),
+            i = r.parent(),
+            d = {
+              delay: 100,
+              instantlyCloseOthers: !0
+            },
+            s = {
+              delay: $(this).data("delay"),
+              instantlyCloseOthers: $(this).data("close-others")
+            },
+            a = "show.bs.dropdown",
+            u = "hide.bs.dropdown",
+            h = $.extend(!0, {}, d, e, s),
+            c;
+          i.hover(function(n) {
+            return i.hasClass("open") || r.is(n.target) ? void t(n) : !0
+          }, function() {
+            c = n.setTimeout(function() {
+              i.removeClass("open"), r.trigger(u)
+            }, h.delay)
+          }), r.hover(function(n) {
+            return i.hasClass("open") || i.is(n.target) ? void t(n) : !0
+          }), i.find(".dropdown-submenu").each(function() {
+            var e = $(this),
+              o;
+            e.hover(function() {
+              n.clearTimeout(o), e.children(".dropdown-menu").show(), e.siblings().children(".dropdown-menu").hide()
+            }, function() {
+              var t = e.children(".dropdown-menu");
+              o = n.setTimeout(function() {
+                t.hide()
+              }, h.delay)
+            })
+          })
+        }))
+      }, $(document).ready(function() {
+        $('[data-hover="dropdown"]').dropdownHover()
+      })
+    }(jQuery, this);
+  </script>
+</body>
+
+</html>
+</html>
